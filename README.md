@@ -1,3 +1,5 @@
+🔗 **Live Demo:** [View on Vercel](https://creative-upaay-dashboard-design.vercel.app/)
+
 📌 React Kanban Board Dashboard
 
     A modern Kanban board style task management dashboard built with React, Redux Toolkit, Tailwind CSS, and react-beautiful-dnd.
