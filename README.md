@@ -1,43 +1,51 @@
 📌 React Kanban Board Dashboard
 
-A modern Kanban board style task management dashboard built with React, Redux Toolkit, Tailwind CSS, and react-beautiful-dnd.
-
-This app helps teams and individuals manage tasks visually by allowing them to create, update, delete, filter, and drag & drop tasks across different workflow stages like To Do, In Progress, and Done.
+    A modern Kanban board style task management dashboard built with React, Redux Toolkit, Tailwind CSS, and react-beautiful-dnd.
+    
+    This app helps teams and individuals manage tasks visually by allowing them to create, update, delete, filter, and drag & drop tasks across different workflow stages like To Do, In Progress, and Done.
 
 ✨ Features
 
 ✅ Task Management (CRUD)
-Create, read, update, and delete tasks with details like:
 
-Title & description
-
-Priority (Low / Medium / High)
-
-Category (e.g., Design, Development)
-
-Assignee
-
-Due date
+    Create, read, update, and delete tasks with details like:
+    
+    Title & description
+    
+    Priority (Low / Medium / High)
+    
+    Category (e.g., Design, Development)
+    
+    Assignee
+    
+    Due date
 
 🎯 Drag & Drop
-Reorder tasks inside a column or move them across columns with react-beautiful-dnd.
+
+    Reorder tasks inside a column or move them across columns with react-beautiful-dnd.
 
 🖼️ Interactive Modals
-Clean modals for adding, editing, and deleting tasks (with confirmation).
+
+    Clean modals for adding, editing, and deleting tasks (with confirmation).
 
 🔍 Filtering & Sorting
-Filter tasks by priority, assignee, or due date for quick task management.
+
+    Filter tasks by priority, assignee, or due date for quick task management.
 
 🌗 Light/Dark Mode
-Responsive UI theme switch for better accessibility.
+
+    Responsive UI theme switch for better accessibility.
 
 📱 Responsive Design
-Works smoothly across desktop and mobile screens.
+
+    Works smoothly across desktop and mobile screens.
 
 🎨 Clean Visuals
-lucide-react icons for intuitive UI cues.
+
+    lucide-react icons for intuitive UI cues.
 
 📂 Project Structure
+
     creative-upaay-dashboard/
     │
     ├── public/
