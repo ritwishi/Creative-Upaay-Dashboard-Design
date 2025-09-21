@@ -38,49 +38,50 @@ Works smoothly across desktop and mobile screens.
 lucide-react icons for intuitive UI cues.
 
 📂 Project Structure
-creative-upaay-dashboard/
-│
-├── public/
-│ └── index.html # HTML entry point
-│
-├── src/
-│ ├── components/ # React components
-│ │ ├── Layout/
-│ │ │ ├── Header.jsx
-│ │ │ ├── Sidebar.jsx
-│ │ │ └── ThoughtsTimer.jsx
-│ │ ├── Modals/
-│ │ │ ├── AddTaskModal.jsx
-│ │ │ ├── EditTaskModal.jsx
-│ │ │ └── DeleteTaskModal.jsx
-│ │ ├── Filters/
-│ │ │ └── FilterBar.jsx
-│ │ ├── TaskCard.jsx
-│ │ ├── Column.jsx
-│ │ ├── KanbanBoard.jsx
-│ │ └── Badge.jsx
-│ │
-│ ├── redux/ # Redux Toolkit store & slices
-│ │ ├── slices/
-│ │ │ ├── tasksSlice.js
-│ │ │ ├── filtersSlice.js
-│ │ │ ├── projectsSlice.js
-│ │ │ └── themeSlice.js
-│ │ └── store.js
-│ │
-│ ├── styles/
-│ │ ├── globals.css # Global CSS
-│ │ └── tailwind.config.js # Tailwind configuration
-│ │
-│ ├── helpers.js # Utility helper functions
-│ ├── constants.js # Static constants (status, priority, etc.)
-│ ├── App.js # Root component
-│ ├── index.js # React DOM entry point
-│ └── vite-env.d.ts # Vite TypeScript env (if using TS)
-│
-├── package.json # Dependencies & scripts
-├── package-lock.json # Lock file
-└── README.md # Project documentation
+    creative-upaay-dashboard/
+    │
+    ├── public/
+    │   └── index.html                # HTML entry point
+    │
+    ├── src/
+    │   ├── components/              # React components
+    │   │   ├── Layout/
+    │   │   │   ├── Header.jsx
+    │   │   │   ├── Sidebar.jsx
+    │   │   │   └── ThoughtsTimer.jsx
+    │   │   ├── Modals/
+    │   │   │   ├── AddTaskModal.jsx
+    │   │   │   ├── EditTaskModal.jsx
+    │   │   │   └── DeleteTaskModal.jsx
+    │   │   ├── Filters/
+    │   │   │   └── FilterBar.jsx
+    │   │   ├── TaskCard.jsx
+    │   │   ├── Column.jsx
+    │   │   ├── KanbanBoard.jsx
+    │   │   └── Badge.jsx
+    │   │
+    │   ├── redux/                   # Redux state management
+    │   │    ├── slices/
+    │   │    │    ├── tasksSlice.js
+    │   │    │    ├── filtersSlice.js
+    │   │    │    ├── projectsSlice.js
+    │   │    │    └── themeSlice.js
+    │   │    └── store.js
+    │   │
+    │   ├── styles/                  
+    │   │    ├── globals.css         # Global CSS styles
+    │   │    └── tailwind.config.js  # Tailwind CSS configuration
+    │   │
+    │   ├── helpers.js               # Utility helper functions
+    │   ├── constants.js             # Constants for priorities, statuses, etc.
+    │   ├── App.js                   # Main App component
+    │   ├── index.js                 # React rendering entry point
+    │   └── vite-env.d.ts            # Vite TypeScript environment types (if using TypeScript)
+    │
+    ├── package.json                 # Project dependencies and scripts
+    ├── package-lock.json            # Dependency lock file
+    └── README.md                   # Project documentation
+
 
 🔧 Usage
 
