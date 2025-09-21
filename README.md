@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+📌 React Kanban Board Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern Kanban board style task management dashboard built with React, Redux Toolkit, Tailwind CSS, and react-beautiful-dnd.
 
-## Available Scripts
+This app helps teams and individuals manage tasks visually by allowing them to create, update, delete, filter, and drag & drop tasks across different workflow stages like To Do, In Progress, and Done.
 
-In the project directory, you can run:
+✨ Features
 
-### `npm start`
+✅ Task Management (CRUD)
+Create, read, update, and delete tasks with details like:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Title & description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Priority (Low / Medium / High)
 
-### `npm test`
+Category (e.g., Design, Development)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Assignee
 
-### `npm run build`
+Due date
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🎯 Drag & Drop
+Reorder tasks inside a column or move them across columns with react-beautiful-dnd.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🖼️ Interactive Modals
+Clean modals for adding, editing, and deleting tasks (with confirmation).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔍 Filtering & Sorting
+Filter tasks by priority, assignee, or due date for quick task management.
 
-### `npm run eject`
+🌗 Light/Dark Mode
+Responsive UI theme switch for better accessibility.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📱 Responsive Design
+Works smoothly across desktop and mobile screens.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🎨 Clean Visuals
+lucide-react icons for intuitive UI cues.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📂 Project Structure
+creative-upaay-dashboard/
+│
+├── public/
+│ └── index.html # HTML entry point
+│
+├── src/
+│ ├── components/ # React components
+│ │ ├── Layout/
+│ │ │ ├── Header.jsx
+│ │ │ ├── Sidebar.jsx
+│ │ │ └── ThoughtsTimer.jsx
+│ │ ├── Modals/
+│ │ │ ├── AddTaskModal.jsx
+│ │ │ ├── EditTaskModal.jsx
+│ │ │ └── DeleteTaskModal.jsx
+│ │ ├── Filters/
+│ │ │ └── FilterBar.jsx
+│ │ ├── TaskCard.jsx
+│ │ ├── Column.jsx
+│ │ ├── KanbanBoard.jsx
+│ │ └── Badge.jsx
+│ │
+│ ├── redux/ # Redux Toolkit store & slices
+│ │ ├── slices/
+│ │ │ ├── tasksSlice.js
+│ │ │ ├── filtersSlice.js
+│ │ │ ├── projectsSlice.js
+│ │ │ └── themeSlice.js
+│ │ └── store.js
+│ │
+│ ├── styles/
+│ │ ├── globals.css # Global CSS
+│ │ └── tailwind.config.js # Tailwind configuration
+│ │
+│ ├── helpers.js # Utility helper functions
+│ ├── constants.js # Static constants (status, priority, etc.)
+│ ├── App.js # Root component
+│ ├── index.js # React DOM entry point
+│ └── vite-env.d.ts # Vite TypeScript env (if using TS)
+│
+├── package.json # Dependencies & scripts
+├── package-lock.json # Lock file
+└── README.md # Project documentation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🔧 Usage
 
-## Learn More
+    ➕ Add a task by clicking the “+” button in a column
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ✏️ Edit or ❌ delete tasks from the dropdown menu on task cards
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    🖱️ Drag tasks across columns or reorder within a column
 
-### Code Splitting
+    🔎 Filter tasks using the filter bar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📅 Due date badges:
 
-### Analyzing the Bundle Size
+    🔴 Overdue
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    🟡 Today
 
-### Making a Progressive Web App
+    🟢 Upcoming
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📦 Key Dependencies
 
-### Advanced Configuration
+    React 18+ – Frontend framework
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    Redux Toolkit – State management
 
-### Deployment
+    react-beautiful-dnd – Drag & drop interactions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    lucide-react – Icon set
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Tailwind CSS – Utility-first styling
